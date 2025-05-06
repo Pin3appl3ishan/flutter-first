@@ -16,6 +16,7 @@ class FirstAssignmentApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'First Assignment',
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
         '/': (context) => const DashboardScreen(),
