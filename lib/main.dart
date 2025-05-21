@@ -1,3 +1,8 @@
+import 'package:first_ass/view/calculator_view.dart';
+import 'package:first_ass/view/card_view.dart';
+import 'package:first_ass/view/dropdown_view.dart';
+import 'package:first_ass/view/grid_view.dart';
+import 'package:first_ass/view/student_view.dart';
 import 'package:flutter/material.dart';
 import 'view/dashboard_screen.dart';
 import 'package:first_ass/view/add_num.dart';
@@ -19,7 +24,7 @@ class FirstAssignmentApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => const DashboardScreen(),
+        '/': (context) => const StudentView(),
         '/add': (context) => const AddTwoNumbersScreen(),
         '/circle': (context) => const AreaOfCircleScreen(),
         '/interest': (context) => const SimpleInterestScreen(),
